@@ -1,0 +1,861 @@
+{
+ "_readme": "MOCK DATA ONLY – Dømi / Example data. No real customers, prices or item numbers. Edit freely; bump meta.version to refresh caches.",
+ "meta": {
+  "version": "2026.10.31-1",
+  "currency": "DKK",
+  "vat": 0.25,
+  "company": "P/F Maria Poulsen (dømi)",
+  "label": "Dømi / Example data"
+ },
+ "seller": {
+  "n": "Jógvan Dømisson",
+  "ph": "+298 00 00 00",
+  "mail": "seljari@mp.fo"
+ },
+ "salespeople": [
+  {
+   "n": "Jógvan Dømisson",
+   "ph": "+298 00 00 00",
+   "mail": "seljari@mp.fo",
+   "me": true
+  },
+  {
+   "n": "Sólja Dømadóttir"
+  },
+  {
+   "n": "Rúni Dømason"
+  },
+  {
+   "n": "Elin Dømis"
+  }
+ ],
+ "crm": {
+  "contacts": [
+   {
+    "id": "KT-DØMI-0117",
+    "opp": "MG-DØMI-0342",
+    "n": "Anna & Rói Joensen",
+    "first": "Anna & Rói",
+    "ini": "AJ",
+    "addr": "Dømisgøta 12, 100 Tórshavn",
+    "src": [
+     "Oljufýr út · mett 145 m²",
+     "Oil boiler out · est. 145 m²"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0233",
+    "opp": "MG-DØMI-0355",
+    "n": "Sigrid Hansen",
+    "first": "Sigrid",
+    "ini": "SH",
+    "addr": "Dømisvegur 4, 180 Kaldbak",
+    "src": [
+     "Nýggj hitapumpa · raðhús",
+     "New heat pump · terraced"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0301",
+    "opp": null,
+    "n": "Bjarni Olsen",
+    "first": "Bjarni",
+    "ini": "BO",
+    "addr": "Dømisbrekka 7, 410 Kollafjørður",
+    "src": [
+     "Kontakt, eingin møguleiki enn",
+     "Contact, no opportunity yet"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0412",
+    "opp": "MG-DØMI-0361",
+    "n": "Jóhanna & Pætur Dahl",
+    "first": "Jóhanna & Pætur",
+    "ini": "JD",
+    "addr": "Dømisstíggur 3, 700 Klaksvík",
+    "src": [
+     "Oljufýr út · einbýlishús",
+     "Oil boiler out · detached"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0455",
+    "opp": "MG-DØMI-0370",
+    "n": "Marjun Poulsen",
+    "first": "Marjun",
+    "ini": "MP",
+    "addr": "Dømisgøta 41, 600 Saltangará",
+    "src": [
+     "Elhiti út · 120 m²",
+     "Electric heating out · 120 m²"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0498",
+    "opp": null,
+    "n": "Tróndur Jacobsen",
+    "first": "Tróndur",
+    "ini": "TJ",
+    "addr": "Dømistún 9, 520 Leirvík",
+    "src": [
+     "Gomul hitapumpa · skift út",
+     "Old heat pump · replace"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0520",
+    "opp": "MG-DØMI-0388",
+    "n": "Eyð & Sára Mortensen",
+    "first": "Eyð & Sára",
+    "ini": "EM",
+    "addr": "Dømisbreyt 22, 800 Tvøroyri",
+    "src": [
+     "Jarðhiti ynsktur",
+     "Ground source wanted"
+    ]
+   },
+   {
+    "id": "KT-DØMI-0561",
+    "opp": null,
+    "n": "Hanus Lamhauge",
+    "first": "Hanus",
+    "ini": "HL",
+    "addr": "Dømisvegur 15, 360 Sandavágur",
+    "src": [
+     "Nýbygging",
+     "New build"
+    ]
+   }
+  ]
+ },
+ "solutions": {
+  "aw": {
+   "fo": "Luft/vatn",
+   "en": "Air/water",
+   "img": "aw",
+   "dfo": "Útieind heintar orku úr luftini. Lægsta íløga, einføld innlegging.",
+   "den": "Outdoor unit takes energy from the air. Lowest investment, simple install."
+  },
+  "ea": {
+   "fo": "Útsúgsluft (Qvantum QE)",
+   "en": "Exhaust air (Qvantum QE)",
+   "img": "qe",
+   "dfo": "Endurnýtir hitan í ventilatiónsluftini. Eingin útieind. R290, 5 og 7 kW.",
+   "den": "Reuses the heat in the ventilation air. No outdoor unit. R290, 5 and 7 kW."
+  },
+  "gs": {
+   "fo": "Jarðhiti / bergvarmi",
+   "en": "Ground source / geothermal",
+   "img": "gs",
+   "dfo": "Borihol í berg ella slanga í jørð. Hægsta nyttuvirði, longst lívstíð, hægri íløga.",
+   "den": "Borehole in rock or a ground loop. Highest efficiency, longest life, higher investment."
+  }
+ },
+ "items": {
+  "VNR-DØMI-3001": {
+   "fo": "Panasonic-stíl Aquarea 9 kW útieind (dømi)",
+   "en": "Panasonic-style Aquarea 9 kW outdoor unit (example)",
+   "unit": "pcs",
+   "price": 48900
+  },
+  "VNR-DØMI-3002": {
+   "fo": "Panasonic-stíl Aquarea 12 kW útieind (dømi)",
+   "en": "Panasonic-style Aquarea 12 kW outdoor unit (example)",
+   "unit": "pcs",
+   "price": 61900
+  },
+  "VNR-DØMI-3003": {
+   "fo": "Murhylki / veggjagjøgnumføring (dømi)",
+   "en": "Wall sleeve / penetration (example)",
+   "unit": "pcs",
+   "price": 390
+  },
+  "VNR-DØMI-3004": {
+   "fo": "Røraklemmur (dømi)",
+   "en": "Pipe clamps (example)",
+   "unit": "pcs",
+   "price": 28
+  },
+  "VNR-DØMI-3005": {
+   "fo": "Jarðstativ við vibratiónsdempurum (dømi)",
+   "en": "Ground stand with anti-vibration feet (example)",
+   "unit": "pcs",
+   "price": 1890
+  },
+  "VNR-DØMI-3007": {
+   "fo": "El-kabul 5G2,5, per m (dømi)",
+   "en": "Power cable 5G2.5, per m (example)",
+   "unit": "m",
+   "price": 38
+  },
+  "VNR-DØMI-3008": {
+   "fo": "Samskiftiskabul, per m (dømi)",
+   "en": "Communication cable, per m (example)",
+   "unit": "m",
+   "price": 14
+  },
+  "ARB-DØMI-01": {
+   "fo": "Innlegging, montørtímar (dømi)",
+   "en": "Installation, installer hours (example)",
+   "unit": "hrs",
+   "price": 650
+  },
+  "ARB-DØMI-02": {
+   "fo": "Koyring og igangseting (dømi)",
+   "en": "Travel and commissioning (example)",
+   "unit": "set",
+   "price": 1800
+  },
+  "VNR-DØMI-3006": {
+   "fo": "Veggkonsoll við vibratiónsdempurum (dømi)",
+   "en": "Wall bracket with anti-vibration mounts (example)",
+   "unit": "pcs",
+   "price": 1450
+  },
+  "VNR-DØMI-3009": {
+   "fo": "Hitakabul til kondensfrárenning (dømi)",
+   "en": "Heat trace cable for condensate (example)",
+   "unit": "m",
+   "price": 95
+  },
+  "VNR-DØMI-4001": {
+   "fo": "Ventilatiónskanalur Ø160, per m (dømi)",
+   "en": "Ventilation duct Ø160, per m (example)",
+   "unit": "m",
+   "price": 165
+  },
+  "VNR-DØMI-4002": {
+   "fo": "Kanaleinangran 50 mm, per m (dømi)",
+   "en": "Duct insulation 50 mm, per m (example)",
+   "unit": "m",
+   "price": 120
+  },
+  "VNR-DØMI-4003": {
+   "fo": "Takhetta til útblástur (dømi)",
+   "en": "Roof cowl for exhaust (example)",
+   "unit": "pcs",
+   "price": 2450
+  },
+  "VNR-DØMI-4004": {
+   "fo": "Gjøgnumføring, tak/veggur (dømi)",
+   "en": "Roof/wall penetration kit (example)",
+   "unit": "pcs",
+   "price": 540
+  },
+  "VNR-DØMI-4005": {
+   "fo": "Upphongingarbeslag (dømi)",
+   "en": "Hangers (example)",
+   "unit": "pcs",
+   "price": 35
+  },
+  "VNR-DØMI-4006": {
+   "fo": "Bendir/T-stykki Ø160 (dømi)",
+   "en": "Bends/tees Ø160 (example)",
+   "unit": "pcs",
+   "price": 145
+  },
+  "VNR-DØMI-6001": {
+   "fo": "Boring í berg, aktiv dýpd, per m (undirveitari, dømi)",
+   "en": "Rock drilling, active depth, per m (subcontractor, example)",
+   "unit": "m",
+   "price": 320
+  },
+  "VNR-DØMI-6002": {
+   "fo": "Fóðurrør gjøgnum jarðlag, per m (dømi)",
+   "en": "Casing through soil, per m (example)",
+   "unit": "m",
+   "price": 450
+  },
+  "VNR-DØMI-6003": {
+   "fo": "Kollektorslanga PE 40, U-rør, per m (dømi)",
+   "en": "Collector hose PE 40, U-loop, per m (example)",
+   "unit": "m",
+   "price": 32
+  },
+  "VNR-DØMI-6004": {
+   "fo": "Borholutekja (dømi)",
+   "en": "Borehole cap (example)",
+   "unit": "pcs",
+   "price": 1200
+  },
+  "VNR-DØMI-6020": {
+   "fo": "Transportleiðing PE 40 í grøft, per m (dømi)",
+   "en": "Transport line PE 40 in trench, per m (example)",
+   "unit": "m",
+   "price": 48
+  },
+  "VNR-DØMI-6021": {
+   "fo": "Grøft hús → borihol/kollektor, per m (dømi)",
+   "en": "Trench house → borehole/collector, per m (example)",
+   "unit": "m",
+   "price": 350
+  },
+  "VNR-DØMI-6022": {
+   "fo": "Frostvarnarvæska (~30 %), per l (dømi)",
+   "en": "Antifreeze (~30%), per l (example)",
+   "unit": "l",
+   "price": 38
+  },
+  "VNR-DØMI-6023": {
+   "fo": "Fyllisett við skitfiltri (dømi)",
+   "en": "Filler kit with dirt filter (example)",
+   "unit": "set",
+   "price": 1890
+  },
+  "VNR-DØMI-6024": {
+   "fo": "Nivå-/ekspansiónsílat til brine (dømi)",
+   "en": "Brine level/expansion vessel (example)",
+   "unit": "pcs",
+   "price": 950
+  },
+  "VNR-DØMI-6025": {
+   "fo": "Kondenseinangran til brinerør innandura, per m (dømi)",
+   "en": "Condensation insulation for indoor brine pipes, per m (example)",
+   "unit": "m",
+   "price": 95
+  },
+  "VNR-DØMI-6011": {
+   "fo": "Kollektorslanga PE 40, jarðslanga, per m (dømi)",
+   "en": "Collector hose PE 40, ground loop, per m (example)",
+   "unit": "m",
+   "price": 32
+  },
+  "VNR-DØMI-6012": {
+   "fo": "Grøft til jarðslangu, per m (dømi)",
+   "en": "Trenching for ground loop, per m (example)",
+   "unit": "m",
+   "price": 60
+  },
+  "VNR-DØMI-6013": {
+   "fo": "Fordeilari til 2 slingur (dømi)",
+   "en": "Manifold for 2 loops (example)",
+   "unit": "pcs",
+   "price": 2400
+  },
+  "VNR-DØMI-1001": {
+   "fo": "CTC EcoAir 8 kW útieind (dømi)",
+   "en": "CTC EcoAir 8 kW outdoor unit (example)",
+   "unit": "pcs",
+   "price": 52900
+  },
+  "VNR-DØMI-1002": {
+   "fo": "CTC EcoZenith innieind við heitvatnsgoymara (dømi)",
+   "en": "CTC EcoZenith indoor unit with hot water tank (example)",
+   "unit": "pcs",
+   "price": 48500
+  },
+  "VNR-DØMI-1003": {
+   "fo": "Innleggingarsett: filtur, avloftari, trýstikar (dømi)",
+   "en": "Install kit: filter, air vent, expansion vessel (example)",
+   "unit": "set",
+   "price": 3900
+  },
+  "VNR-DØMI-1004": {
+   "fo": "Útifølari og stýring (dømi)",
+   "en": "Outdoor sensor and controls (example)",
+   "unit": "set",
+   "price": 1200
+  },
+  "VNR-DØMI-1011": {
+   "fo": "CTC EcoAir 12 kW útieind (dømi)",
+   "en": "CTC EcoAir 12 kW outdoor unit (example)",
+   "unit": "pcs",
+   "price": 64900
+  },
+  "VNR-DØMI-2001": {
+   "fo": "Qvantum QE 5 kW útsúgsluft-hitapumpa, R290 (dømi)",
+   "en": "Qvantum QE 5 kW exhaust air heat pump, R290 (example)",
+   "unit": "pcs",
+   "price": 59900
+  },
+  "VNR-DØMI-2003": {
+   "fo": "Innleggingarsett til QE (dømi)",
+   "en": "Install kit for QE (example)",
+   "unit": "set",
+   "price": 3400
+  },
+  "VNR-DØMI-2004": {
+   "fo": "Útsúgsventilar til vátrúm (dømi)",
+   "en": "Extract valves for wet rooms (example)",
+   "unit": "pcs",
+   "price": 290
+  },
+  "VNR-DØMI-2002": {
+   "fo": "Qvantum QE 7 kW útsúgsluft-hitapumpa, R290 (dømi)",
+   "en": "Qvantum QE 7 kW exhaust air heat pump, R290 (example)",
+   "unit": "pcs",
+   "price": 69900
+  },
+  "VNR-DØMI-5001": {
+   "fo": "CTC GSi 612 við innbygdum heitvatnsgoymara (dømi)",
+   "en": "CTC GSi 612 with built-in hot water (example)",
+   "unit": "pcs",
+   "price": 98900
+  },
+  "VNR-DØMI-5003": {
+   "fo": "Innleggingarsett: trygdarventil, trýstikar, avloftari (dømi)",
+   "en": "Install kit: safety valve, expansion vessel, air vent (example)",
+   "unit": "set",
+   "price": 3900
+  },
+  "VNR-DØMI-5002": {
+   "fo": "CTC GSi 616 við innbygdum heitvatnsgoymara (dømi)",
+   "en": "CTC GSi 616 with built-in hot water (example)",
+   "unit": "pcs",
+   "price": 112900
+  },
+  "VNR-DØMI-3010": {
+   "fo": "Panasonic-stíl innieind við 185 l goymara (dømi)",
+   "en": "Panasonic-style indoor unit with 185 l tank (example)",
+   "unit": "pcs",
+   "price": 42900
+  }
+ },
+ "packages": {
+  "ctc8": {
+   "type": "aw",
+   "name": "CTC EcoAir 8 kW + EcoZenith innieind (dømi)",
+   "nameEn": "CTC EcoAir 8 kW + EcoZenith indoor unit (example)",
+   "bom": "STK-DØMI-HP-AW08",
+   "img": "aw",
+   "kw": 8,
+   "lw": 55,
+   "dims": [
+    600,
+    680,
+    1800
+   ],
+   "lines": [
+    {
+     "item": "VNR-DØMI-1001",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1002",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1004",
+     "qty": 1
+    }
+   ],
+   "brand": "CTC"
+  },
+  "ctc12": {
+   "type": "aw",
+   "name": "CTC EcoAir 12 kW + EcoZenith innieind (dømi)",
+   "nameEn": "CTC EcoAir 12 kW + EcoZenith indoor unit (example)",
+   "bom": "STK-DØMI-HP-AW12",
+   "img": "aw",
+   "kw": 12,
+   "lw": 58,
+   "dims": [
+    600,
+    680,
+    1800
+   ],
+   "lines": [
+    {
+     "item": "VNR-DØMI-1011",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1002",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1004",
+     "qty": 1
+    }
+   ],
+   "brand": "CTC"
+  },
+  "qe5": {
+   "type": "ea",
+   "name": "Qvantum QE 5 kW útsúgsluft, R290 (dømi)",
+   "nameEn": "Qvantum QE 5 kW exhaust air, R290 (example)",
+   "bom": "STK-DØMI-HP-QE05",
+   "img": "qe",
+   "kw": 5,
+   "lw": 0,
+   "dims": [
+    600,
+    620,
+    2050
+   ],
+   "lines": [
+    {
+     "item": "VNR-DØMI-2001",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-2003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-2004",
+     "qty": 4
+    }
+   ],
+   "brand": "Qvantum"
+  },
+  "qe7": {
+   "type": "ea",
+   "name": "Qvantum QE 7 kW útsúgsluft, R290 (dømi)",
+   "nameEn": "Qvantum QE 7 kW exhaust air, R290 (example)",
+   "bom": "STK-DØMI-HP-QE07",
+   "img": "qe",
+   "kw": 7,
+   "lw": 0,
+   "dims": [
+    600,
+    620,
+    2050
+   ],
+   "lines": [
+    {
+     "item": "VNR-DØMI-2002",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-2003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-2004",
+     "qty": 4
+    }
+   ],
+   "brand": "Qvantum"
+  },
+  "gsi612": {
+   "type": "gs",
+   "name": "CTC GSi 612 jarðhitapumpa (dømi)",
+   "nameEn": "CTC GSi 612 ground source heat pump (example)",
+   "bom": "STK-DØMI-HP-GS12",
+   "img": "gs",
+   "kw": 12,
+   "cap": 6.08,
+   "cop": 4.78,
+   "qN": 0.32,
+   "qMin": 0.27,
+   "pmax": 12,
+   "dims": [
+    596,
+    673,
+    1876
+   ],
+   "ceil": 1940,
+   "lines": [
+    {
+     "item": "VNR-DØMI-5001",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-5003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1004",
+     "qty": 1
+    }
+   ],
+   "brand": "CTC"
+  },
+  "gsi616": {
+   "type": "gs",
+   "name": "CTC GSi 616 jarðhitapumpa (dømi)",
+   "nameEn": "CTC GSi 616 ground source heat pump (example)",
+   "bom": "STK-DØMI-HP-GS16",
+   "img": "gs",
+   "kw": 16,
+   "cap": 10.52,
+   "cop": 4.5,
+   "qN": 0.58,
+   "qMin": 0.42,
+   "pmax": 16,
+   "dims": [
+    596,
+    673,
+    1876
+   ],
+   "ceil": 1940,
+   "lines": [
+    {
+     "item": "VNR-DØMI-5002",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-5003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1004",
+     "qty": 1
+    }
+   ],
+   "brand": "CTC"
+  },
+  "pana9": {
+   "type": "aw",
+   "brand": "Panasonic-style",
+   "name": "Panasonic-stíl Aquarea 9 kW + innieind (dømi)",
+   "nameEn": "Panasonic-style Aquarea 9 kW + indoor unit (example)",
+   "bom": "STK-DØMI-HP-PA09",
+   "img": "icon",
+   "kw": 9,
+   "lw": 56,
+   "dims": [
+    598,
+    600,
+    1800
+   ],
+   "lines": [
+    {
+     "item": "VNR-DØMI-3001",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-3010",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1004",
+     "qty": 1
+    }
+   ]
+  },
+  "pana12": {
+   "type": "aw",
+   "brand": "Panasonic-style",
+   "name": "Panasonic-stíl Aquarea 12 kW + innieind (dømi)",
+   "nameEn": "Panasonic-style Aquarea 12 kW + indoor unit (example)",
+   "bom": "STK-DØMI-HP-PA12",
+   "img": "icon",
+   "kw": 12,
+   "lw": 59,
+   "dims": [
+    598,
+    600,
+    1800
+   ],
+   "lines": [
+    {
+     "item": "VNR-DØMI-3002",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-3010",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1003",
+     "qty": 1
+    },
+    {
+     "item": "VNR-DØMI-1004",
+     "qty": 1
+    }
+   ]
+  }
+ },
+ "addons": [
+  {
+   "id": "therm",
+   "ic": "🌡️",
+   "fo": "Snildir rúmhitastillar / rúmstýring",
+   "en": "Smart room thermostats / zone control",
+   "pr": 3600,
+   "q": "termostat",
+   "for": [
+    "aw",
+    "ea",
+    "gs"
+   ]
+  },
+  {
+   "id": "myup",
+   "ic": "📱",
+   "fo": "Fjarstýring og eftirlit (myUplink-modul)",
+   "en": "Remote control and monitoring (myUplink module)",
+   "pr": 1900,
+   "q": "ctc",
+   "for": [
+    "aw",
+    "gs"
+   ]
+  },
+  {
+   "id": "filt",
+   "ic": "🧲",
+   "fo": "Magnetiskur skitfiltur til hitaskipanina",
+   "en": "Magnetic dirt filter for the heating circuit",
+   "pr": 1650,
+   "q": "skitfiltur",
+   "for": [
+    "aw",
+    "ea",
+    "gs"
+   ]
+  },
+  {
+   "id": "water",
+   "ic": "💧",
+   "fo": "Vatnviðgerð / fylling við reinsaðum vatni",
+   "en": "Water treatment / filling with treated water",
+   "pr": 1200,
+   "q": "vatn",
+   "for": [
+    "aw",
+    "ea",
+    "gs"
+   ]
+  },
+  {
+   "id": "tank",
+   "ic": "🛢️",
+   "fo": "Størri heitvatns- ella buffaratangi",
+   "en": "Larger hot water or buffer tank",
+   "pr": 9800,
+   "q": "tangi",
+   "for": [
+    "aw",
+    "gs"
+   ]
+  },
+  {
+   "id": "floor",
+   "ic": "♨️",
+   "fo": "Gólvhiti í baðirúmi (≈ 6 m²)",
+   "en": "Underfloor heating in bathroom (≈ 6 m²)",
+   "pr": 14500,
+   "q": "gólvhiti",
+   "for": [
+    "aw",
+    "ea",
+    "gs"
+   ]
+  },
+  {
+   "id": "bath",
+   "ic": "🛁",
+   "fo": "Baðirúm: nýtt kar, blandari og møblar",
+   "en": "Bathroom: new basin, mixer and furniture",
+   "pr": 12900,
+   "q": "baðirúm",
+   "for": [
+    "aw",
+    "ea",
+    "gs"
+   ]
+  },
+  {
+   "id": "vent",
+   "ic": "🌬️",
+   "fo": "Ventilatión við hitaafturvinning",
+   "en": "Ventilation with heat recovery",
+   "pr": 24900,
+   "q": "ventilation",
+   "for": [
+    "aw",
+    "gs"
+   ]
+  }
+ ],
+ "serviceTiers": [
+  {
+   "id": "svc1",
+   "ic": "🛠️",
+   "tier": "Essential",
+   "fo": "Tænastuavtala · Essential",
+   "en": "Service agreement · Essential",
+   "pr": 1800,
+   "q": "tænastuavtala"
+  },
+  {
+   "id": "svc2",
+   "ic": "🛡️",
+   "tier": "Plus",
+   "fo": "Tænastuavtala · Plus (+2 ár garanti)",
+   "en": "Service agreement · Plus (+2 yrs warranty)",
+   "pr": 2900,
+   "q": "tænastuavtala"
+  },
+  {
+   "id": "svc3",
+   "ic": "⭐",
+   "tier": "VIP",
+   "fo": "Tænastuavtala · VIP",
+   "en": "Service agreement · VIP",
+   "pr": 4600,
+   "q": "tænastuavtala"
+  }
+ ],
+ "handil": {
+  "searchUrl": "https://handil.mp.fo/search?q="
+ },
+ "sources": {
+  "tedap": "https://ctc.se/file-download/fce50b7c851d127d66dc90ea3536ef9f.pdf",
+  "gsi": "https://ctc-heating.com/file-download-product/5613",
+  "install": "https://ctc-heating.com/blog/ground-source-heating/how-to-install-ground-source-heating",
+  "hor": "https://ctc-heating.com/blog/marine-and-ground-source-heating/it-is-convenient-to-have-geothermal-heating",
+  "guide": "https://ctc-heating.com/buying-a-heat-pump/the-heat-pump-guide",
+  "berg": "https://ctc.se/blogg/bergvarme/bergvarmeguide-fakta-tips-och-rad-infor-beslutet"
+ },
+ "rock": {
+  "basalt": {
+   "fo": "Basalt (Føroyar, fortreyt)",
+   "en": "Basalt (Faroes, assumption)",
+   "lam": 1.7,
+   "w": 22,
+   "e": 55
+  },
+  "granite": {
+   "fo": "Granit/gneis (vanligt í Svøríki)",
+   "en": "Granite/gneiss (typical Sweden)",
+   "lam": 3.2,
+   "w": 30,
+   "e": 80
+  },
+  "poor": {
+   "fo": "Brotið/vánaligt berg",
+   "en": "Fractured/poor rock",
+   "lam": 1.3,
+   "w": 18,
+   "e": 45
+  }
+ },
+ "soil": {
+  "normal": {
+   "fo": "Vanlig mold/leir",
+   "en": "Normal soil/clay",
+   "w": 10,
+   "e": 25
+  },
+  "bog": {
+   "fo": "Mýri",
+   "en": "Bog/peat",
+   "w": 8,
+   "e": 20
+  },
+  "dry": {
+   "fo": "Turrur sandur/grús",
+   "en": "Dry sand/gravel",
+   "w": 6,
+   "e": 12
+  }
+ }
+}
