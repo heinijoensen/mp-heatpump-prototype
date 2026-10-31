@@ -1,7 +1,7 @@
 {
  "_readme": "MOCK DATA ONLY – Dømi / Example data. No real customers, prices or item numbers. Edit freely; bump meta.version to refresh caches.",
  "meta": {
-  "version": "2026.10.31-2",
+  "version": "2026.10.31-3",
   "currency": "DKK",
   "vat": 0.25,
   "company": "P/F Maria Poulsen (Dømi)",
@@ -304,13 +304,13 @@
    "price": 1890
   },
   "VNR-DØMI-6024": {
-   "fo": "Niváílát/útjavningarílát til frostblanding (Dømi)",
+   "fo": "Niváílát/útjavningarílát til kølivæsku (Dømi)",
    "en": "Brine level/expansion vessel (example)",
    "unit": "pcs",
    "price": 950
   },
   "VNR-DØMI-6025": {
-   "fo": "Trýstisolering til kondens á innandura rørum við frostblanding, fyri hvønn m (Dømi)",
+   "fo": "Trýstisolering til kondens á innandura rørum við kølivæsku, fyri hvønn m (Dømi)",
    "en": "Condensation insulation for indoor brine pipes, per m (example)",
    "unit": "m",
    "price": 95
