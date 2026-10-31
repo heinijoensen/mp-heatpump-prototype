@@ -291,3 +291,4 @@ html.cust body{padding-bottom:0}
 @media (max-width:760px){.hk{grid-template-columns:1fr 1fr}.hnew{width:100%}.vcard{padding:12px}.vcard .vr b{display:none}}
 @media (prefers-color-scheme:dark){html[data-theme=auto] .st.s{background:#1d2a44;color:#b9c9f0}}
 html[data-theme=dark] .st.s{background:#1d2a44;color:#b9c9f0}
+@media (max-width:1480px){.hud .sub{display:none}}
